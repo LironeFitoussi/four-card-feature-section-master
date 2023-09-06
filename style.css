@@ -6,3 +6,29 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+#COLORS {
+ /* ## Colors */
+    /* ### Primary */
+    /* - Red */
+    color: hsl(0, 78%, 62%);
+
+    /* - Cyan */
+    color: hsl(180, 62%, 55%);
+
+    /* - Orange */
+    color: hsl(34, 97%, 64%);
+
+    /* - Blue */
+    color: hsl(212, 86%, 64%);
+
+    /* ### Neutral */
+    /* - Very Dark Blue */
+    color: hsl(234, 12%, 34%);
+
+    /* - Grayish Blue */
+    color: hsl(229, 6%, 66%);
+
+    /* - Very Light Gray */
+    color: hsl(0, 0%, 98%);
+}
