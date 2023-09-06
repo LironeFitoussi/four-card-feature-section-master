@@ -1,9 +1,31 @@
 body {
+    display: flex;
     height: auto;
     margin: 10vh 10vw;
 }
 
 header {
+    width: 100%;
+}
+
+.heading {
     font-size: 12px;
-    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.topicCard {
+    height: 20vh;
+}
+
+.cntr-cont {
+    gap: 3vh;
+}
+
+img {
+    width: 17vw;
 }
