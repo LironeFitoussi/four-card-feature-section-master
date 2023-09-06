@@ -9,6 +9,7 @@ body {
     font-size: 15px;
     padding: 0;
     margin: 0;
+    color: hsl(234, 12%, 34%);
 }
 
 /* Main CSS */
@@ -19,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    gap: 5vh;
+    gap: 7vh;
 }
 
 header {
@@ -28,7 +29,10 @@ header {
     text-align: center;
     width: 35vw;
     gap: 1vh;
-    color: hsl(234, 12%, 34%);
+}
+
+p {
+    color: hsl(229, 6%, 66%);
 }
 
 h1 > span {
@@ -39,9 +43,73 @@ h1 {
     font-weight: 600;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    gap: 2vw;
+    justify-items: center;
+    align-items: center;
+}
 
 .topicCard {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: fit-content;
+    height: 22vh;
+    padding: 10%;
+    border-radius: 1vh;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+
+}
+
+.textContent > h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textContent > p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.25rem;
+} 
+
+
+#supervisorCard {
+    border-top: solid 5px hsl(180, 62%, 55%);
+}
+
+#teamBuilderCard {
+    border-top: solid 5px hsl(0, 78%, 62%);
+}
+
+#karmaCard {
+    border-top: solid 5px hsl(34, 97%, 64%);
+}
+
+#calculatorCard {
+    border-top: solid 5px hsl(212, 86%, 64%);
+}
+
+img {
+    width: 5vw;
+    align-self: flex-end;
+}
+
+.cntr-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: -webkit-fill-available;
+    align-items: center;
 }
 
 .attribution {
