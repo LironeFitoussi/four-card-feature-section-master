@@ -19,9 +19,30 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    gap: 5vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 35vw;
+    gap: 1vh;
+    color: hsl(234, 12%, 34%);
+}
+
+h1 > span {
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 600;
 }
 
 
+.topicCard {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
 .attribution {
   font-size: 11px;
